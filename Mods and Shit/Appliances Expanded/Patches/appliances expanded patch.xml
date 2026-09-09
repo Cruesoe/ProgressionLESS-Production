@@ -5,13 +5,13 @@
 <!-- LARGE PRODUCTION BENCHES -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="VFE_Manufacturing"]/label</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/label</xpath>
 		<value>
 			<label>Large production benches</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="VFE_Manufacturing"]/description</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/description</xpath>
 		<value>
 			<description>Build manufacturing benches of larger size and efficency.</description>
 		</value>

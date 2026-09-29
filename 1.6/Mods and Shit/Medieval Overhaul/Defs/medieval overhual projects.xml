@@ -70,8 +70,8 @@
 		<baseCost>650</baseCost>
 		<tab>Main</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>21.50</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedResearchBench</defName>
+		<label>Advanced research bench</label>
+		<description>Research more complex technologies at increased speeds.</description>
+		<baseCost>550</baseCost>
+		<tab>DankPyon_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>DankPyon_Engineering</li>
+			<li>DankPyon_Alchemy</li>
+			<li>Ferny_ResearchBench</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Workbench</defName>
+		<label>Workbenches</label>
+		<description>Build workbenches, mending benches and cleaning benches.</description>
+		<baseCost>300</baseCost>
+		<tab>DankPyon_MedievalResearchTab</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Ice</defName>
+		<label>Ice management</label>
+		<description>Construct buildings based around managing and storing ice.</description>
+		<baseCost>250</baseCost>
+		<tab>DankPyon_MedievalResearchTab</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>DankPyon_Lumber</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Writing</defName>
+		<label>Writing</label>
+		<description>Write stuff</description>
+		<baseCost>250</baseCost>
+		<tab>DankPyon_MedievalResearchTab</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_IndustrialSmithing</defName>
+		<label>Industrial workshops</label>
+		<description>Build industrial smithies, blast furnaces, table saws, tanning drums and cloth spinners.</description>
+		<baseCost>650</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>21.50</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_CharcoalPile</defName>
+		<label>Charcoal pile</label>
+		<description>Build charcoal piles for slowly burning wood into charcoal.</description>
+		<baseCost>100</baseCost>
+		<tab>DankPyon_MedievalResearchTab</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>17.50</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

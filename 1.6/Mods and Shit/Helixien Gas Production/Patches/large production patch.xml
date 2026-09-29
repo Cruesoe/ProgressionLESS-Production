@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/researchPrerequisites/li[text()="VFE_Manufacturing"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFE_Manufacturing</li>
+				<li>VHGE_GasExtraction</li>
+				<li>Smithing</li>
+				<li MayRequire="dankpyon.medieval.overhaul">Ferny_IndustrialSmithing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

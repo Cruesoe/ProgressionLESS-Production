@@ -442,6 +442,15 @@
 						</researchPrerequisites>
                       </value>
                   </li>
+				  <li Class="PatchOperationReplace">
+					  <xpath>Defs/ResearchProjectDef[defName="Ferny_LargeElectricSmithy"]/prerequisites</xpath>
+					  <value>
+						<prerequisites>
+							<li>Fabrication</li>
+							<li>Ferny_IndustrialSmithing</li>
+						</prerequisites>
+					  </value>
+				  </li>
 				<li Class="PatchOperationFindMod">
 					<mods>
 					<li>Appliances Expanded</li>
@@ -449,11 +458,20 @@
 					<match Class="PatchOperationSequence">
 					<operations>
 						<li Class="PatchOperationReplace">
+							<xpath>Defs/ResearchProjectDef[defName="Ferny_LargeChemfuelPoweredSmithy"]/prerequisites</xpath>
+							<value>
+								<prerequisites>
+									<li>Fabrication</li>
+									<li>Ferny_IndustrialSmithing</li>
+									<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
+								</prerequisites>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
 							<xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge"]/researchPrerequisites</xpath>
 							<value>
 								<researchPrerequisites>
-									<li>Ferny_IndustrialSmithing</li>
-									<li>VFE_Manufacturing</li>
+									<li>Ferny_LargeChemfuelPoweredSmithy</li>
 								</researchPrerequisites>
 							</value>
 						</li>
@@ -488,12 +506,20 @@
 						<match Class="PatchOperationSequence">
 						<operations>
 							<li Class="PatchOperationReplace">
+								<xpath>Defs/ResearchProjectDef[defName="Ferny_LargeHelixienGasSmithy"]/prerequisites</xpath>
+								<value>
+									<prerequisites>
+										<li>Fabrication</li>
+										<li>VHGE_GasExtraction</li>
+										<li>Ferny_IndustrialSmithing</li>
+									</prerequisites>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
 								<xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/researchPrerequisites</xpath>
 								<value>
 									<researchPrerequisites>
-									<li>VHGE_GasExtraction</li>
-									<li>VFE_Manufacturing</li>
-									<li>Ferny_IndustrialSmithing</li>
+									<li>Ferny_LargeHelixienGasSmithy</li>
 									</researchPrerequisites>
 								</value>
 							</li>
@@ -554,6 +580,3 @@
 	</Operation>
 
 </Patch>
-
-
-

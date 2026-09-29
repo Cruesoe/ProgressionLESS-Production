@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LargeHelixienGasSmithy</defName>
+		<label>Large helixien gas smithy</label>
+		<description>Build a large smithy powered by helixien gas.</description>
+		<baseCost>1500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VHGE_GasExtraction</li>
+			<li>Smithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

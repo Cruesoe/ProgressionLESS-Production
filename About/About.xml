@@ -28,8 +28,12 @@
 		<li>oskarpotocki.vfe.classical</li>
 		<li>oskarpotocki.vfe.tribals</li>
 		<li>sarg.alphacrafts</li>
+		<li>sarg.alphabiomes</li>
 		<li>oskarpotocki.vfe.medieval2</li>
 		<li>talias.VFEHardleatherConcrete</li>
 		<li>veterano.mythicages.megafaunabestiary</li>
+		<li>kvr.beamconstructor</li>
+		<li>natsuki.manipulatorbeam</li>
+		<li>ferny.progressionstorage</li>
 	</loadAfter>
 </ModMetaData>

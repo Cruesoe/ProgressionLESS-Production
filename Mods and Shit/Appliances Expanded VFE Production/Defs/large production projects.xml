@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LargeChemfuelPoweredSmithy</defName>
+		<label>Large chemfuel-powered smithy</label>
+		<description>Build a large smithy powered by chemfuel.</description>
+		<baseCost>1500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>Smithing</li>
+			<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_BeamConstructor</defName>
+		<label>Constructor beam emitter</label>
+		<description>Build a console-operated emitter that constructs and repairs buildings with focused beams.</description>
+		<baseCost>80000</baseCost>
+		<tab>Main</tab>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>20</researchViewX>
+		<researchViewY>7</researchViewY>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedBeamConstructor</defName>
+		<label>Automatic constructor beam emitter</label>
+		<description>Automate beam constructors to construct and repair buildings without an operator.</description>
+		<baseCost>30000</baseCost>
+		<tab>Main</tab>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>21</researchViewX>
+		<researchViewY>7</researchViewY>
+		<prerequisites>
+			<li>Ferny_BeamConstructor</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

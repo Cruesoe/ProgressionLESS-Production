@@ -33,4 +33,34 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_LargeElectricSmithy</defName>
+		<label>Large electric smithy</label>
+		<description>Build a large electric smithy for faster smithing work.</description>
+		<baseCost>1500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>Smithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LargeTailoringTable</defName>
+		<label>Large tailoring table</label>
+		<description>Build a large tailoring table for faster tailoring work.</description>
+		<baseCost>1500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>ComplexClothing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
 </Defs>

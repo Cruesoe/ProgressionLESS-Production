@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CA_ChemfuelStoveLarge"]/researchPrerequisites/li[text()="VFE_Manufacturing"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CE_FueledSmithyLarge"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_LargeChemfuelPoweredSmithy</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

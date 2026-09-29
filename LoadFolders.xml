@@ -1,6 +1,7 @@
 <loadFolders>
-  <v1.5>
+  <v1.6>
     <li>/</li>
+    <li IfModActive="ferny.noderesearch">Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="kentington.saveourship2">Mods and Shit/SOS2</li>
     <li IfModActive="vanillaexpanded.vfeproduction">Mods and Shit/VFE Production</li>
@@ -15,5 +16,6 @@
     <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">Mods and Shit/Helixien Gas Production</li>
     <li IfModActive="kvr.beamconstructor">Mods and Shit/Beam Constructor</li>
     <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">Mods and Shit/Beam Constructor - Manipulator Beam</li>
-  </v1.5>
+    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">Mods and Shit/Beam Constructor - Manipulator Beam</li>
+  </v1.6>
 </loadFolders>

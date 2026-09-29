@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Node Research: mark the first production projects as research foundations -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_AdvancedResearchBench"]</xpath>
+          <value>
+            <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_Workbench"]</xpath>
+          <value>
+            <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ResearchProjectDef[defName="Ferny_IndustrialSmithing"]</xpath>
+          <value>
+            <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <!-- Node Research: campfire icon for VFE Tribals' fire research; does nothing without VFE Tribals -->
+  <Operation Class="PatchOperationAddModExtension">
+    <success>Always</success>
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Fire"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchIconExtension">
+        <texPath>ResearchIcons/Campfire</texPath>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

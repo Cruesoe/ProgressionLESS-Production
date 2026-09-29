@@ -30,7 +30,7 @@
 			<li>ClassicStart</li>
 		</tags>
 		<prerequisites>
-			<li MayRequire="ferny.progressionfurniture">Ferny_Tables</li>
+			<li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
 		</prerequisites>
 	</ResearchProjectDef>
 

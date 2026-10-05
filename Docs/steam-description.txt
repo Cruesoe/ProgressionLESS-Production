@@ -1,0 +1,45 @@
+[h1]ProgressionLESS: Production[/h1]
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3453408412]Progression: Production[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]What it does[/h2]
+[list]
+[*]Overhauls production research, so workstations unlock in their proper tech era.
+[*]Starts with a research bench and sculpting bench, and brings smelters, smithies, crematoriums and large workstations into the same progression.
+[*]Works with the rest of the Progression suite: Furniture's Tables and Storage's manipulator beam keep their links.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Production adds up to [b]31 research projects[/b] depending on your mods. This fork cuts that to [b]at most 10[/b]:
+[list]
+[*][b]Neolithic:[/b] Research bench, Sculpting bench, Workbenches, Writing, Ice management, Charcoal pile
+[*][b]Medieval:[/b] Advanced research bench
+[*][b]Industrial:[/b] Industrial workshops, Chemfuel appliances
+[*][b]Ultra:[/b] Constructor beam emitter
+[/list]
+Everything else unlocks with the research it came from:
+[list]
+[*]Fueled smelter: [b]Smithing[/b]
+[*]Patchleather: [b]Complex clothing[/b]
+[*]Electric smelter, stonecutter's table, concrete maker and leather boilpot: [b]Electricity[/b]
+[*]Gas-powered smelter, refinery and crematorium: [b]Gas extraction[/b]
+[*]Large smithies and tailoring table: VFE Production's [b]Large workstations[/b]
+[/list]
+Everything stays in the same era and at the same stage within it, and still needs the other research it did before. The research is laid out neatly with no overlaps.
+
+[h2]Compatibility[/h2]
+Keeps all of the original's mod support:
+[list]
+[*]Medieval Overhaul and VFE Medieval 2
+[*]Vanilla Furniture Expanded - Production
+[*]Appliances Expanded and Vanilla Chemfuel Expanded
+[*]Vanilla Helixien Gas Expanded and Helixien Gas Production
+[*]Industrial Hardleather Concrete and Cheese
+[*]Alpha Crafts, Alpha Biomes and Mythic Ages Megafauna Bestiary
+[*]Beam Constructor, with Manipulator Beam
+[*]Save Our Ship 2
+[*]Node Research and the rest of the Progression suite
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]

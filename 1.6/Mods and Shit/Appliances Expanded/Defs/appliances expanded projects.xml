@@ -7,8 +7,8 @@
 		<baseCost>700</baseCost>
 		<tab>Main</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>23.00</researchViewX>
-		<researchViewY>2.80</researchViewY>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
 		<prerequisites>
 			<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
 			<li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>

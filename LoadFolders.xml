@@ -1,22 +1,42 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
-    <li>1.6</li>
-    <li IfModActive="ferny.noderesearch">1.6/Mods and Shit/Node Research</li>
-    <li IfModActive="dankpyon.medieval.overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
-    <li IfModActive="kentington.saveourship2">1.6/Mods and Shit/SOS2</li>
-    <li IfModActive="vanillaexpanded.vfeproduction">1.6/Mods and Shit/VFE Production</li>
-    <li IfModActive="sarg.alphacrafts">1.6/Mods and Shit/Alpha Crafts</li>
-    <li IfModActive="sarg.alphabiomes">1.6/Mods and Shit/Alpha Biomes</li>
-    <li IfModActive="oskarpotocki.vfe.medieval2">1.6/Mods and Shit/VFE Medieval 2</li>
-    <li IfModActive="talias.VFEHardleatherConcrete">1.6/Mods and Shit/Industrial Hardleather Concrete and Cheese</li>
-    <li IfModActive="veterano.mythicages.megafaunabestiary">1.6/Mods and Shit/Mythic Ages</li>
-    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vchemfuele">1.6/Mods and Shit/Appliances Expanded</li>
-    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vfeproduction">1.6/Mods and Shit/Appliances Expanded VFE Production</li>
-    <li IfModActive="vanillaexpanded.helixiengas">1.6/Mods and Shit/VE Helixien Gas</li>
-    <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">1.6/Mods and Shit/Helixien Gas Production</li>
-    <li IfModActive="kvr.beamconstructor">1.6/Mods and Shit/Beam Constructor</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">1.6/Mods and Shit/Beam Constructor - Manipulator Beam</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">1.6/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+    <li>Common</li>
+    <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="kentington.saveourship2">Common/Mods and Shit/SOS2</li>
+    <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>
+    <li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
+    <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
+    <li IfModActive="oskarpotocki.vfe.medieval2">Common/Mods and Shit/VFE Medieval 2</li>
+    <li IfModActive="talias.VFEHardleatherConcrete">Common/Mods and Shit/Industrial Hardleather Concrete and Cheese</li>
+    <li IfModActive="veterano.mythicages.megafaunabestiary">Common/Mods and Shit/Mythic Ages</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vchemfuele">Common/Mods and Shit/Appliances Expanded</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vfeproduction">Common/Mods and Shit/Appliances Expanded VFE Production</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Common/Mods and Shit/VE Helixien Gas</li>
+    <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">Common/Mods and Shit/Helixien Gas Production</li>
+    <li IfModActive="kvr.beamconstructor">Common/Mods and Shit/Beam Constructor</li>
+    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
   </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>Common</li>
+    <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="kentington.saveourship2">Common/Mods and Shit/SOS2</li>
+    <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>
+    <li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
+    <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
+    <li IfModActive="oskarpotocki.vfe.medieval2">Common/Mods and Shit/VFE Medieval 2</li>
+    <li IfModActive="talias.VFEHardleatherConcrete">Common/Mods and Shit/Industrial Hardleather Concrete and Cheese</li>
+    <li IfModActive="veterano.mythicages.megafaunabestiary">Common/Mods and Shit/Mythic Ages</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vchemfuele">Common/Mods and Shit/Appliances Expanded</li>
+    <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vfeproduction">Common/Mods and Shit/Appliances Expanded VFE Production</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Common/Mods and Shit/VE Helixien Gas</li>
+    <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">Common/Mods and Shit/Helixien Gas Production</li>
+    <li IfModActive="kvr.beamconstructor">Common/Mods and Shit/Beam Constructor</li>
+    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+  </v1.7>
 </loadFolders>

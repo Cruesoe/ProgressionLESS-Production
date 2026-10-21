@@ -181,11 +181,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]/prerequisites</xpath>
 		<value>
-			<prerequisites>
-				<li>Ferny_Writing</li>
-			</prerequisites>
+			<li>Ferny_Writing</li>
 		</value>
 	</Operation>
 
@@ -334,6 +332,7 @@
                       <value>
                         <prerequisites>
                           <li>VFEC_CraftingBench</li>
+                          <li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
                         </prerequisites>
                       </value>
                   </li>

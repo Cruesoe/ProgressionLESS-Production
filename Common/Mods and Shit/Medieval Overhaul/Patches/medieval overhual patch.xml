@@ -181,11 +181,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]/prerequisites</xpath>
 		<value>
-			<prerequisites>
-				<li>Ferny_Writing</li>
-			</prerequisites>
+			<li>Ferny_Writing</li>
 		</value>
 	</Operation>
 
@@ -334,6 +332,7 @@
                       <value>
                         <prerequisites>
                           <li>VFEC_CraftingBench</li>
+                          <li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
                         </prerequisites>
                       </value>
                   </li>
@@ -490,6 +489,10 @@
 						<mods>
 						<li>Helixien Gas Production</li>
 						</mods>
+						<match Class="PatchOperationFindMod">
+						<mods>
+						<li>Vanilla Furniture Expanded - Production</li>
+						</mods>
 						<match Class="PatchOperationSequence">
 						<operations>
 							<li Class="PatchOperationReplace">
@@ -504,6 +507,7 @@
 								</value>
 							</li>
 						</operations>
+						</match>
 						</match>
 					</li>
               </operations>

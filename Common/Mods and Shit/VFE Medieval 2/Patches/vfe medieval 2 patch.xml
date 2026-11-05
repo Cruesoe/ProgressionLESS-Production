@@ -11,17 +11,4 @@
                     </value>
                 </Operation>
 
-
-                <!-- patchleather -->
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="VFEM2_LeatherBoilpot"]/researchPrerequisites</xpath>
-                    <value>
-                        <researchPrerequisites>
-                            <li>ComplexClothing</li>
-                            <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LeatherTanning</li>
-                        </researchPrerequisites>
-                    </value>
-                </Operation>
-
 </Patch>

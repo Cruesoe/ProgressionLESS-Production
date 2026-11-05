@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Leather boilpot on Attire's tailor bench (Medieval), as Attire moves complex clothing to Industrial -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_LeatherBoilpot"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>LemonSkin_RusticClothing</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>

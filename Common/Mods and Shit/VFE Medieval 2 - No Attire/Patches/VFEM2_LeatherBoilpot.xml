@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Leather boilpot on complex clothing -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_LeatherBoilpot"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>ComplexClothing</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LeatherTanning</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>

@@ -53,7 +53,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_Writing</defName>
 		<label>Writing</label>
-		<description>Write stuff</description>
+    <description>Build scribe tables for writing books.</description>
 		<baseCost>250</baseCost>
 		<tab>DankPyon_MedievalResearchTab</tab>
 		<techLevel>Neolithic</techLevel>

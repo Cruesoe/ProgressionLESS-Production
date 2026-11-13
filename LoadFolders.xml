@@ -4,10 +4,8 @@
     <li>Common</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
-    <li IfModActive="kentington.saveourship2">Common/Mods and Shit/SOS2</li>
     <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>
     <li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
-    <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="oskarpotocki.vfe.medieval2">Common/Mods and Shit/VFE Medieval 2</li>
     <li IfModActiveAll="oskarpotocki.vfe.medieval2" IfModActive="cruesoe.progressionlessattire,ferny.progressionattire">Common/Mods and Shit/VFE Medieval 2 - Attire</li>
     <li IfModActive="oskarpotocki.vfe.medieval2" IfModNotActive="cruesoe.progressionlessattire,ferny.progressionattire">Common/Mods and Shit/VFE Medieval 2 - No Attire</li>
@@ -25,10 +23,8 @@
     <li>Common</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
-    <li IfModActive="kentington.saveourship2">Common/Mods and Shit/SOS2</li>
     <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>
     <li IfModActive="sarg.alphacrafts">Common/Mods and Shit/Alpha Crafts</li>
-    <li IfModActive="sarg.alphabiomes">Common/Mods and Shit/Alpha Biomes</li>
     <li IfModActive="oskarpotocki.vfe.medieval2">Common/Mods and Shit/VFE Medieval 2</li>
     <li IfModActiveAll="oskarpotocki.vfe.medieval2" IfModActive="cruesoe.progressionlessattire,ferny.progressionattire">Common/Mods and Shit/VFE Medieval 2 - Attire</li>
     <li IfModActive="oskarpotocki.vfe.medieval2" IfModNotActive="cruesoe.progressionlessattire,ferny.progressionattire">Common/Mods and Shit/VFE Medieval 2 - No Attire</li>

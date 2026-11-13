@@ -17,9 +17,8 @@
     <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vfeproduction">Common/Mods and Shit/Appliances Expanded VFE Production</li>
     <li IfModActive="vanillaexpanded.helixiengas">Common/Mods and Shit/VE Helixien Gas</li>
     <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">Common/Mods and Shit/Helixien Gas Production</li>
-    <li IfModActive="kvr.beamconstructor">Common/Mods and Shit/Beam Constructor</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+    <li IfModActive="natsuki.manipulatorbeam">Common/Mods and Shit/Manipulator Beam Emitter</li>
+    <li IfModActiveAll="natsuki.manipulatorbeam" IfModActive="ferny.progressionstorage,cruesoe.progressionlessstorage">Common/Mods and Shit/Manipulator Beam Emitter - Progression Storage</li>
   </v1.6>
   <v1.7>
     <li>/</li>
@@ -39,8 +38,7 @@
     <li IfModActiveAll="scpchemfuel.appliances,vanillaexpanded.vfeproduction">Common/Mods and Shit/Appliances Expanded VFE Production</li>
     <li IfModActive="vanillaexpanded.helixiengas">Common/Mods and Shit/VE Helixien Gas</li>
     <li IfModActiveAll="cixwow.helixiengasproduction,vanillaexpanded.helixiengas,vanillaexpanded.vfeproduction">Common/Mods and Shit/Helixien Gas Production</li>
-    <li IfModActive="kvr.beamconstructor">Common/Mods and Shit/Beam Constructor</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,ferny.progressionstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
-    <li IfModActiveAll="kvr.beamconstructor,natsuki.manipulatorbeam,cruesoe.progressionlessstorage">Common/Mods and Shit/Beam Constructor - Manipulator Beam</li>
+    <li IfModActive="natsuki.manipulatorbeam">Common/Mods and Shit/Manipulator Beam Emitter</li>
+    <li IfModActiveAll="natsuki.manipulatorbeam" IfModActive="ferny.progressionstorage,cruesoe.progressionlessstorage">Common/Mods and Shit/Manipulator Beam Emitter - Progression Storage</li>
   </v1.7>
 </loadFolders>

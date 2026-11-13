@@ -7,7 +7,7 @@
         <value>
             <label>sculpting bench</label>
         </value>
-    </Operation>        
+    </Operation>
 
 
 
@@ -22,19 +22,19 @@
 
 <!-- ADJUSTMENTS -->
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Smithing"]/techLevel</xpath>
-		<value>
-			<techLevel>Neolithic</techLevel>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Smithing"]/techLevel</xpath>
+    <value>
+      <techLevel>Neolithic</techLevel>
+    </value>
+  </Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/techLevel</xpath>
-		<value>
-			<techLevel>Neolithic</techLevel>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/techLevel</xpath>
+    <value>
+      <techLevel>Neolithic</techLevel>
+    </value>
+  </Operation>
 
 <!-- NEW RESEARCH -->
     <Operation Class="PatchOperationConditional">
@@ -45,9 +45,9 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/researchPrerequisites</xpath>
                     <value>
-						<researchPrerequisites>
-							<li>Ferny_ResearchBench</li>
-						</researchPrerequisites>
+            <researchPrerequisites>
+              <li>Ferny_ResearchBench</li>
+            </researchPrerequisites>
                     </value>
                 </li>
             </operations>
@@ -57,9 +57,9 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]</xpath>
                     <value>
-						<researchPrerequisites>
-							<li>Ferny_ResearchBench</li>
-						</researchPrerequisites>
+            <researchPrerequisites>
+              <li>Ferny_ResearchBench</li>
+            </researchPrerequisites>
                     </value>
                 </li>
             </operations>
@@ -74,9 +74,9 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName="TableSculpting"]/researchPrerequisites</xpath>
                     <value>
-						<researchPrerequisites>
-							<li>Ferny_SculptingBench</li>
-						</researchPrerequisites>
+            <researchPrerequisites>
+              <li>Ferny_SculptingBench</li>
+            </researchPrerequisites>
                     </value>
                 </li>
             </operations>
@@ -86,32 +86,42 @@
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/ThingDef[defName="TableSculpting"]</xpath>
                     <value>
-						<researchPrerequisites>
-							<li>Ferny_SculptingBench</li>
-						</researchPrerequisites>
+            <researchPrerequisites>
+              <li>Ferny_SculptingBench</li>
+            </researchPrerequisites>
                     </value>
                 </li>
             </operations>
         </nomatch>
     </Operation>
 
-<!-- ELECTRIC SMELTER / BIOFUEL REFINERY -->
+<!-- ELECTRIC SMELTER / ELECTRIC CREMATORIUM / BIOFUEL REFINERY -->
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]/label</xpath>
-		<value>
-			<label>Biofuel refinery</label>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]/label</xpath>
+    <value>
+      <label>Biofuel refinery</label>
+    </value>
+  </Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="ElectricSmelter"]/researchPrerequisites</xpath>
-		<value>
-			<researchPrerequisites>
-				<li>Electricity</li>
-				<li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>
-			</researchPrerequisites>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ElectricSmelter"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Electricity</li>
+        <li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ElectricCrematorium"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>Electricity</li>
+        <li MayRequire="oskarpotocki.vfe.classical">VFEC_WoodfiredCrematorium</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
 
 </Patch>

@@ -10,7 +10,7 @@
 [/list]
 
 [h2]Why "LESS"?[/h2]
-Progression: Production adds up to [b]31 research projects[/b] depending on your mods. This fork cuts that to [b]at most 10[/b]:
+Progression: Production adds up to [b]43 research projects[/b] depending on your mods. This fork cuts that to [b]at most 10[/b]:
 [list]
 [*][b]Research bench[/b], [b]Sculpting bench[/b], [b]Workbenches[/b], [b]Writing[/b], [b]Ice management[/b] and [b]Charcoal pile[/b] (Neolithic).
 [*][b]Advanced research bench[/b] (Medieval).
@@ -21,9 +21,10 @@ Everything else unlocks with the research it came from:
 [list]
 [*]Fueled smelter: [b]Smithing[/b].
 [*]Patchleather: [b]Complex clothing[/b].
-[*]Electric smelter, stonecutter's table, concrete maker and leather boilpot: [b]Electricity[/b].
+[*]Electric smelter, electric crematorium, stonecutter's table, concrete maker and leather boilpot: [b]Electricity[/b].
 [*]Gas-powered smelter, refinery and crematorium: [b]Gas extraction[/b].
 [*]Large smithies and tailoring table: VFE Production's [b]Large workstations[/b].
+[*]VFE Medieval 2's workbench linkables: its [b]Medieval linkables[/b], with each linkable also needing its workbench's research.
 [/list]
 Everything stays in the same era and at the same stage within it, and still needs the other research it did before. The research is laid out neatly with no overlaps.
 
@@ -36,7 +37,7 @@ Keeps all of the original's mod support:
 [*]Vanilla Helixien Gas Expanded and Helixien Gas Production.
 [*]Industrial Hardleather Concrete and Cheese.
 [*]Alpha Crafts, Alpha Biomes and Mythic Ages Megafauna Bestiary.
-[*]Beam Constructor, with Manipulator Beam.
+[*]Manipulator Beam Emitter.
 [*]Save Our Ship 2.
 [*]Node Research and the rest of the Progression suite.
 [/list]

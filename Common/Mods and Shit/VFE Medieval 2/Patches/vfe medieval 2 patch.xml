@@ -1,14 +1,109 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>          
+<Patch>
 
+  <!-- Medieval linkables: one project; each linkable also needs its workbench's research -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/label</xpath>
+        <value>
+          <label>medieval linkables</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/baseCost</xpath>
+        <value>
+          <baseCost>150</baseCost>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/prerequisites</xpath>
+      </li>
+    </operations>
+  </Operation>
 
-                <!-- complex workshops -->
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/label</xpath>
-                    <value>
-                        <label>medieval linkables</label>
-                    </value>
-                </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_ArtToolStand" or defName="VFEM2_StonePolisher"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>Ferny_SculptingBench</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_CarvingBoard" or defName="VFEM2_CleaverRack"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li MayRequireAnyOf="ferny.progressionkitchen,cruesoe.progressionlesskitchen">Ferny_ButcherTable</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_NotesStack" or defName="VFEM2_ResearchBoard"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>Ferny_ResearchBench</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_SurgicalTools"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>ComplexFurniture</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_ChiselRack" or defName="VFEM2_StoneClamp"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>Stonecutting</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_ForgeBellows"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>Smithing</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_MannequinStand" or defName="VFEM2_TailoringLoom"]</xpath>
+    <value>
+      <researchPrerequisites Inherit="False">
+        <li>VFEM2_ComplexWorkshops</li>
+        <li>ComplexClothing</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <!-- Medieval Overhaul: the cleaver rack takes finished cleavers -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_CleaverRack"]/costList/Steel</xpath>
+      <value>
+        <DankPyon_MeleeWeapon_ButcherCleaver>3</DankPyon_MeleeWeapon_ButcherCleaver>
+      </value>
+    </match>
+  </Operation>
 
 </Patch>

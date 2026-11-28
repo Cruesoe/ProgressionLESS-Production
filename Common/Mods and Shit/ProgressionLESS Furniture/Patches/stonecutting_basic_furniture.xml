@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Stonecutting needs Basic furniture; this folder loads before Medieval Overhaul's, so it patches after its prerequisites replace -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/prerequisites</xpath>
+      <value>
+        <li>Ferny_Tables</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
+      <value>
+        <prerequisites>
+          <li>Ferny_Tables</li>
+        </prerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -2,6 +2,7 @@
   <v1.6>
     <li>/</li>
     <li>Common</li>
+    <li IfModActive="cruesoe.progressionlessfurniture">Common/Mods and Shit/ProgressionLESS Furniture</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>
@@ -21,6 +22,7 @@
   <v1.7>
     <li>/</li>
     <li>Common</li>
+    <li IfModActive="cruesoe.progressionlessfurniture">Common/Mods and Shit/ProgressionLESS Furniture</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="dankpyon.medieval.overhaul">Common/Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="vanillaexpanded.vfeproduction">Common/Mods and Shit/VFE Production</li>

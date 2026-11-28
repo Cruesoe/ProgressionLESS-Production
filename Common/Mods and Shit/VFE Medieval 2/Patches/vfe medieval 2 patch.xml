@@ -17,8 +17,13 @@
           <baseCost>150</baseCost>
         </value>
       </li>
-      <li Class="PatchOperationRemove">
+      <li Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]/prerequisites</xpath>
+        <value>
+          <prerequisites>
+            <li>ComplexFurniture</li>
+          </prerequisites>
+        </value>
       </li>
     </operations>
   </Operation>
